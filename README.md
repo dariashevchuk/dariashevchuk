@@ -1,7 +1,8 @@
 ## Hi there 👋
 
 <!--
-**dariashevchuk/dariashevchuk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**dariashevchuk/dariashevchuk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. 
+-->
 I’m Dariia, the Artificial Intelligence student at Poznan University of Technology, semester 5/7. 
 I am passionate about AI, ML and everything connected to it. 
 Check out my recent projects:
@@ -50,4 +51,3 @@ Check out my recent projects:
 
 
 
--->
