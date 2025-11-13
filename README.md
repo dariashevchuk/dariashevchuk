@@ -67,7 +67,8 @@ Tech: EDA, PCA, one-hot encoding, scikit-learn, pandas, plotly, numpy, python
 What is it? We take the Titanic dataset to perform EDA and later on compare K-NN, Logistic Regression, and Naive Bayes classifiers. 
 
 
-## Molecular Counterfactuals 
+## 11) Molecular Counterfactuals (group)
+Work in progress...
 
 
 
