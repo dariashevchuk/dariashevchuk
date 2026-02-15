@@ -1,75 +1,32 @@
-## Hi there 👋
+# Hi there 👋
+I’m Dariia, the Artificial Intelligence student at Poznan University of Technology, semester 5/7. I am passionate about AI, ML and everything connected to it.
 
-
-I’m Dariia, the Artificial Intelligence student at Poznan University of Technology, semester 5/7. 
-I am passionate about AI, ML and everything connected to it. 
-Check out my recent projects:
-
-## 1) Hate-2-Action
-- About: a bot that reads user messages and suggests which projects or organizations may help the user to address their problems. It uses the sophisticated pipeline: user message is processed via RAG agent, it finds problems and solutions, then we create embeddings and use similarity vector search in order to match problems-solutions and solutions-projects, then we select top 3-5 best suitable projects and let the LLM write an reply. Works via CLI, API, Telegram bot, and a web app. The bot is implemented both in python and n8n. Such approach ensures the closest match of the response to the users needs.
-- Research was done in order to compare the results of vector search (how to increase the value of cosine similarity between problems-solutions and then solution-projects) vs the length of the text for the LLM prompt (<300 chars, <800 chars or <1200 chars per problem/solution description). The optimum values of cos similarity appeared to be when the length of the output description per problem/solution is <800 chars.
-- Tools used: Python, LangChain + OpenAI (LLM, embeddings), Scikit-learn, cosine similarity, SQLite/pgvector-ready, Next.js, react-markdown/remark-gfm, Docker Compose, Telegram Bot, Supabase Store, Postgres, Supabase vector store, Jupyter Notebook.  
-
-
-## 2) Contribution for OpenPetitions (RAG for Ukrainian presidential petitions)
-
-- About: The service that scrapes petitions from the Ukrainian president website. Analyzes petitions, groups topics, does semantic search, and shows trends. My contribution was based in the multi-label classification of the petitions. 
-- Research was done. Comparison of Classification methods for OpenPetitions. How different embedding models, types of classification (llm-based, vector based, manual) influence the classification results, comparison of methods with the ground truth (manual classification of petitions).
-- Tools used: Python, sentence-transformers / bge / OpenAI embeddings, cosine / dot / L2 / Manhattan / Hamming, notebooks, matplotlib, SQLite/Weaviate, Flask, basic dashboards.
-
-
-## 3) Web-scraping Seed Agent
-About: Scrapes sources and seeds a database with clean, structured data for later apps/bots.
-Tools used: Python, Playwright/requests, JSON/CSV, SQLite/Supabase, Docker, simple ETL logic.
-
-
-## 4) Movie-Explorer - React SPA with Concurrency Patterns
-Tech: React 18, React Router, TMDb API, custom hooks, Python/JS, REST APIs, Flask/Next.js (depending on version), HTML/CSS.
-What it is: Single-page app to search, inspect, and bookmark movies.
-Concurrency aspects: Debounced search, concurrent fetch via useFetch, batched state updates, and localStorage sync via custom hooks.
+<p align="left">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
+  <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
+  <img alt="Keras" src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" />
+  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" />
+  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-0B1320?logoColor=white" />
+  <img alt="pgvector" src="https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white" />
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white" />
+  <img alt="Weaviate" src="https://img.shields.io/badge/Weaviate-00B2A9?logoColor=white" />
+  <img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white" />
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
+  <img alt="n8n" src="https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white" />
+</p>
 
 
 
-## 5) Convex Optimization Project (group)
-What it is: Graph optimization problem. Finds a minimal set of pairs (edges) such that every student is in at most one pair and remaining students form an independent set.
-My part: Resourceful Students — Heuristic (RSH) 
-Tech: C++ (simulated annealing + greedy / priority-queue algorithms)
-What it is: Graph optimization problem. A fast solver for the same task with two regimes: Greedy initialization and simulated annealing with remove/swap moves under a 27s budget, and priority-queue by deg(u)+deg(v); picks edges with highest priority while keeping endpoints unmatched. 
-Result: Submitted as dashashevchuk: Score 93.97, 774.55s.
+## Check out my projects
 
-## 6) FrogShopping — Graph Coverage with BFS
-Tech: C++ (adjacency lists, BFS)
-What it is: Place “shops” so every node is within distance D of at least one shop.
-Approach: Greedy “pick & cover”: for each uncovered node, place a shop and BFS to radius D to mark coverage. O(N(N+M)) worst-case; much faster in practice. 98.22/100 points on Optil.io (submission dashashevchuk). 
-
-
-## 7) OP — Airline Reservation System (group)
-Tech: C++ (inheritance, polymorphism, file I/O), OOP/SOLID, UML, unit tests, Git.
-What it is: Models airline ops: flights (domestic/international), passengers, reservations, payments, logging, and reports.
-Design: Modular classes (Airline, Flight*, Passenger, Reservation, Payment, Report, Logger, Seat*), console UI, file-based persistence.
-
-
-## 8) OP — Game Project (group)
-Farm Simulation System
-Tech: Java (threads, synchronization), OOP patterns, simple graphics/console UI, Git.
-What it is: Multi-agent 2D farm where Farmer, Dog, Rabbit act in parallel; thread-safe Field/Tile grid; coordinated start/stop.
-Learning: OOP + thread safety, shared state, and deterministic control over concurrent actors.
-
-
-## 9) Deap Learning NN project 
-Tech: NumPy, Pandas, TensorFlow, Keras,
-What is it? We build a neural network that mimics the slow but exact function getProbability(df) for up to 16 validators.
-Input per validator: two numbers — pActive ∈ [0,1] and popularity > 0.
-Output: a probability for each validator that the nominator gets assigned to them. We also include one extra none option (no validator active) inside the model and drop it at the end.
-
-## 10) Machine Learning Classifier Comparison (group)
-Tech: EDA, PCA, one-hot encoding, scikit-learn, pandas, plotly, numpy, python
-What is it? We take the Titanic dataset to perform EDA and later on compare K-NN, Logistic Regression, and Naive Bayes classifiers. 
-
-
-## 11) Molecular Counterfactuals (group)
-Work in progress...
-
-
-
+- [Hate-2-Action](https://github.com/gumanista/hate-2-action) 
+- [OCR of Ukr handwritten text](https://github.com/dariashevchuk/ocr-ukrainian-handwritten-text) 
+- [Contribution to OpenPetition](https://github.com/OpenPetitions) 
+- [NN Probability](https://github.com/dariashevchuk/nn_probability) 
+- [molecular-counterfactuals]()
+- [Monopoly Gameplay Recognition System](https://github.com/dariashevchuk/molopoly-computer-vision)
+- [CNN Crack Segmentation](https://github.com/dariashevchuk/cnn_crack_segmentation)
+- 
 
