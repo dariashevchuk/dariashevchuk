@@ -5,8 +5,6 @@ I’m Dariia, the Artificial Intelligence student at Poznan University of Techno
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
   <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
   <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
-  <img alt="Keras" src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white" />
-  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white" />
   <img alt="LangChain" src="https://img.shields.io/badge/LangChain-0B1320?logoColor=white" />
   <img alt="pgvector" src="https://img.shields.io/badge/pgvector-336791?logo=postgresql&logoColor=white" />
   <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white" />
