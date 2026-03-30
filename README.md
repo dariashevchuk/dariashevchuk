@@ -26,5 +26,5 @@ I’m Dariia, the Artificial Intelligence student at Poznan University of Techno
 - [molecular-counterfactuals]()
 - [Monopoly Gameplay Recognition System](https://github.com/dariashevchuk/molopoly-computer-vision)
 - [CNN Crack Segmentation](https://github.com/dariashevchuk/cnn_crack_segmentation)
-- 
+- [Airline Reservation System](https://github.com/dariashevchuk/airline-reservation-system)
 
