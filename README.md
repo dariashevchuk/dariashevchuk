@@ -1,5 +1,5 @@
 # Hi there 👋
-I’m Dariia, the Artificial Intelligence student at Poznan University of Technology, semester 5/7. I am passionate about AI, ML and everything connected to it.
+I’m Dariia, the Artificial Intelligence student at Poznan University of Technology, semester 6/7. I am passionate about AI, ML and everything connected to it.
 
 <p align="left">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
